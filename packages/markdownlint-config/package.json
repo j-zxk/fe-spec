@@ -6,22 +6,9 @@
   "homepage": "https://github.com/j-zxk/fe-spec#readme",
   "license": "ISC",
   "main": "index.json",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/j-zxk/fe-spec.git"
-  },
-  "scripts": {
-    "test": "node ./__tests__/markdownlint-config.test.js"
   },
   "bugs": {
     "url": "https://github.com/j-zxk/fe-spec/issues"
@@ -29,5 +16,5 @@
   "devDependencies": {
     "markdownlint": "^0.37.4"
   },
-  "gitHead": "2a28dcff61024d23f7596c5c7e8fe6374951aabb"
+  "gitHead": "a8e201d160a8f188cb9e33e4e32bf4aadd1cf606"
 }
