@@ -1,5 +1,5 @@
 {
-  "name": "markdownlint-config",
+  "name": "fe-spec-zxk-markdownlint-config",
   "version": "0.0.1-alpha.0",
   "description": "文档规范",
   "author": "urs.18768167070@163.com <18768167070@163.com>",
@@ -28,5 +28,6 @@
   },
   "devDependencies": {
     "markdownlint": "^0.37.4"
-  }
+  },
+  "gitHead": "2a28dcff61024d23f7596c5c7e8fe6374951aabb"
 }
