@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config",
+  "name": "fe-spec-zxk-stylelint-config",
   "version": "0.0.1-alpha.3",
   "description": "> TODO: description",
   "author": "zxkxyz <522569695@qq.com>",
@@ -27,5 +27,6 @@
     "jest": "^29.7.0",
     "stylelint": "^16.16.0",
     "stylelint-scss": "^6.11.1"
-  }
+  },
+  "gitHead": "aec686f6c005658906e0d748d4781e416a9b0966"
 }
