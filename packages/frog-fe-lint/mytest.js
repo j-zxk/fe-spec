@@ -32,6 +32,7 @@ const packagePrefixesToRemove = [
 ];
 
 const pkgPath = path.resolve(process.cwd(), 'package.json');
+console.log('pkgPath', pkgPath);
 const pkg = fs.readJSONSync(pkgPath);
 const dependencies = [].concat(
   Object.keys(pkg.dependencies || {}),
@@ -62,9 +63,9 @@ const checkReWriteConfig = (cwd) => {
 const uselessConfig = checkUselessConfig(process.cwd());
 const reWriteConfig = checkReWriteConfig(process.cwd());
 
-console.log('dependencies', dependencies);
-console.log('willRemovePackage', willRemovePackage);
+// console.log('dependencies', dependencies);
+// console.log('willRemovePackage', willRemovePackage);
 console.log('uselessConfig', uselessConfig);
 console.log('reWriteConfig', reWriteConfig);
-console.log(fs.existsSync(path.resolve(process.cwd(), '.eslintrc.json')));
-console.log(glob.sync('**/*.ejs', { cwd: path.resolve(__dirname, './src/config') }).map((name) => name.replace(/^_/, '.').replace(/\.ejs$/, '')));
+// console.log(fs.existsSync(path.resolve(process.cwd(), '.eslintrc.json')));
+// console.log(glob.sync('**/*.ejs', { cwd: path.resolve(__dirname, './src/config') }).map((name) => name.replace(/^_/, '.').replace(/\.ejs$/, '')));

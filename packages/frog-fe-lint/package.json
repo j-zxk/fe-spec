@@ -70,10 +70,10 @@
     "eslint-plugin-vue": "^7.3.0",
     "execa": "^5.0.0",
     "fast-glob": "^3.2.11",
-    "frog-commitlint-config": "workspace:^",
-    "frog-eslint-config": "workspace:^",
-    "frog-markdownlint-config": "workspace:^",
-    "frog-stylelint-config": "workspace:^",
+    "encode-fe-commitlint-config": "^1.0.0",
+    "encode-fe-eslint-config": "^1.0.0",
+    "encode-fe-markdownlint-config": "^1.0.0",
+    "encode-fe-stylelint-config": "^1.0.0",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
     "husky": "^3.1.0",
@@ -81,6 +81,7 @@
     "is-docker": "^2.1.1",
     "lodash": "^4.17.20",
     "markdownlint": "^0.25.1",
+    "markdownlint-config-encode": "^1.0.8",
     "markdownlint-rule-helpers": "^0.13.0",
     "ora": "^5.1.0",
     "prettier": "^2.2.1",
@@ -90,5 +91,6 @@
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0"
-  }
+  },
+  "gitHead": "89c3a6ed1f5939b7347927110fcf810412b09402"
 }
