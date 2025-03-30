@@ -151,18 +151,6 @@ importers:
       ejs:
         specifier: ^3.1.5
         version: 3.1.10
-      encode-fe-commitlint-config:
-        specifier: ^1.0.0
-        version: 1.0.0
-      encode-fe-eslint-config:
-        specifier: ^1.0.0
-        version: 1.0.0
-      encode-fe-markdownlint-config:
-        specifier: ^1.0.0
-        version: 1.0.0(markdownlint@0.25.1)
-      encode-fe-stylelint-config:
-        specifier: ^1.0.0
-        version: 1.0.8(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1)
       eslint:
         specifier: ^8.7.0
         version: 8.57.1
@@ -199,6 +187,18 @@ importers:
       fast-glob:
         specifier: ^3.2.11
         version: 3.3.3
+      frog-commitlint-config:
+        specifier: latest
+        version: 0.0.5
+      frog-eslint-config:
+        specifier: latest
+        version: 0.0.5
+      frog-markdownlint-config:
+        specifier: latest
+        version: 0.0.5
+      frog-stylelint-config:
+        specifier: latest
+        version: 0.0.5
       fs-extra:
         specifier: ^9.0.1
         version: 9.1.0
@@ -2539,10 +2539,6 @@ packages:
     resolution: {integrity: sha512-ROjNchA9LgfNMTTFSIWPzebCwOGFdgkEq45EnvvrmSLvCtAw0HSmrCs7/ty+wAeYUZyNay0YMUNYFTRL72PkBQ==}
     engines: {node: '>=16'}
 
-  conventional-changelog-conventionalcommits@4.6.3:
-    resolution: {integrity: sha512-LTTQV4fwOM4oLPad317V/QNQ1FY4Hju5qeBIM1uTHbrnCE+Eg4CdRZ3gO2pUeR+tzWdp80M2j3qFFEDWVqOV4g==}
-    engines: {node: '>=10'}
-
   conventional-changelog-conventionalcommits@8.0.0:
     resolution: {integrity: sha512-eOvlTO6OcySPyyyk8pKz2dP4jjElYunj9hn9/s0OB+gapTO8zwS9UQWrZ1pmF2hFs3vw1xhonOLGcGjy/zgsuA==}
     engines: {node: '>=18'}
@@ -2931,23 +2927,6 @@ packages:
 
   emoji-regex@9.2.2:
     resolution: {integrity: sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==}
-
-  encode-fe-commitlint-config@1.0.0:
-    resolution: {integrity: sha512-cvX1j1LwozoNCn84Jsft7QAN74YNqEj3N/f/kbekmZhYugKh4cR6bsnfGwxZ0G7ZfLrhf9Db5Pw+pzuQUnFpxQ==}
-
-  encode-fe-eslint-config@1.0.0:
-    resolution: {integrity: sha512-3fT7M/Y1P4Y9Dadv12rFt0oV6jMFvbksZmFDkl8Vhcm/v8xh2IAykyhuKFsKXw0KiyPYolqU9NnsUhGadqL9hQ==}
-
-  encode-fe-markdownlint-config@1.0.0:
-    resolution: {integrity: sha512-doZW1YAEnPhxJaTxeP5+Ups3GAWPNb3Z58Eq2q+lmnOYkrCGkToqvCUuUymCRLabspnm0SFYwDMrjKGAXjIpvA==}
-    peerDependencies:
-      markdownlint: ^0.28.1
-
-  encode-fe-stylelint-config@1.0.8:
-    resolution: {integrity: sha512-oFUlp7u0wD1oEaQSBc1dJJHsKdEC7UA8Slwyvqad6iAG1vATZR8VFDbEOmBrUR2xXe1+30QAfCcZOooVV5IifA==}
-    peerDependencies:
-      stylelint: '>=8.3.0'
-      stylelint-scss: '>=2.0.0'
 
   encoding-sniffer@0.2.0:
     resolution: {integrity: sha512-ju7Wq1kg04I3HtiYIOrUrdfdDvkyO9s5XM8QAj/bN61Yo/Vb4vgJxy5vi4Yxk01gWHbrofpPtpxM8bKger9jhg==}
@@ -3424,6 +3403,18 @@ packages:
   fragment-cache@0.2.1:
     resolution: {integrity: sha512-GMBAbW9antB8iZRHLoGw0b3HANt57diZYFO/HL1JGIC1MjKrdmhxvrJbupnVvpys0zsz7yBApXdQyfepKly2kA==}
     engines: {node: '>=0.10.0'}
+
+  frog-commitlint-config@0.0.5:
+    resolution: {integrity: sha512-Q6H4Plrr/uU7cXz5jQVDDd6Ul3q1sO/6IobZl9wOanjGbbJ9WEUlBpaS/AzQJQkT5L72hRFh6Wq8aNucZcKRiw==}
+
+  frog-eslint-config@0.0.5:
+    resolution: {integrity: sha512-e+9XYgy7+n/+QsDrpA89rtt7Zq9agA93QO3X30Er6UnEiLJF3JTgCBkNt8NKPlpw5+i/yJVQfiKnofiwM7l/iQ==}
+
+  frog-markdownlint-config@0.0.5:
+    resolution: {integrity: sha512-XJ774Vm7gtGNJ3oeQeesAQpKxq47N+dV7EMhqyEZUAed/CLdmuwatx6286ii4bMl3i19mAHb6viVkn2OgTgZvQ==}
+
+  frog-stylelint-config@0.0.5:
+    resolution: {integrity: sha512-xYAMIcf5H/q21p8aSvstecQj9GO8agEGJ/hq4Q3XrTSwbNC/wi+6sXqfHt9+Q6IMRb3EKm44y8My7Go1i3FGEQ==}
 
   fromentries@1.3.2:
     resolution: {integrity: sha512-cHEpEQHUg0f8XdtZCc2ZAhrHzKzT0MrFUTcvx+hfxYu7rGMDc5SKoXFh+n4YigxsHXRzc6OrCshdR1bWH6HHyg==}
@@ -5819,14 +5810,6 @@ packages:
 
   pure-rand@6.1.0:
     resolution: {integrity: sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==}
-
-  q@1.5.1:
-    resolution: {integrity: sha512-kV/CThkXo6xyFEZUugw/+pIOywXcDbFYgSct5cT3gqlbkBE1SJdwy6UQoZvodiWF/ckQLZyDE/Bu1M6gVu5lVw==}
-    engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
-    deprecated: |-
-      You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
-
-      (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
 
   querystringify@2.2.0:
     resolution: {integrity: sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==}
@@ -10205,12 +10188,6 @@ snapshots:
     dependencies:
       compare-func: 2.0.0
 
-  conventional-changelog-conventionalcommits@4.6.3:
-    dependencies:
-      compare-func: 2.0.0
-      lodash: 4.17.21
-      q: 1.5.1
-
   conventional-changelog-conventionalcommits@8.0.0:
     dependencies:
       compare-func: 2.0.0
@@ -10590,21 +10567,6 @@ snapshots:
   emoji-regex@8.0.0: {}
 
   emoji-regex@9.2.2: {}
-
-  encode-fe-commitlint-config@1.0.0:
-    dependencies:
-      conventional-changelog-conventionalcommits: 4.6.3
-
-  encode-fe-eslint-config@1.0.0: {}
-
-  encode-fe-markdownlint-config@1.0.0(markdownlint@0.25.1):
-    dependencies:
-      markdownlint: 0.25.1
-
-  encode-fe-stylelint-config@1.0.8(stylelint-scss@4.7.0(stylelint@14.16.1))(stylelint@14.16.1):
-    dependencies:
-      stylelint: 14.16.1
-      stylelint-scss: 4.7.0(stylelint@14.16.1)
 
   encoding-sniffer@0.2.0:
     dependencies:
@@ -11333,6 +11295,16 @@ snapshots:
   fragment-cache@0.2.1:
     dependencies:
       map-cache: 0.2.2
+
+  frog-commitlint-config@0.0.5:
+    dependencies:
+      conventional-changelog-conventionalcommits: 8.0.0
+
+  frog-eslint-config@0.0.5: {}
+
+  frog-markdownlint-config@0.0.5: {}
+
+  frog-stylelint-config@0.0.5: {}
 
   fromentries@1.3.2: {}
 
@@ -12326,7 +12298,7 @@ snapshots:
       jest-environment-jsdom: 26.6.2
       jest-environment-node: 26.6.2
       jest-get-type: 26.3.0
-      jest-jasmine2: 26.6.3(ts-node@10.9.2(@types/node@22.13.13)(typescript@4.9.5))
+      jest-jasmine2: 26.6.3
       jest-regex-util: 26.0.0
       jest-resolve: 26.6.2
       jest-util: 26.6.2
@@ -12579,7 +12551,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  jest-jasmine2@26.6.3(ts-node@10.9.2(@types/node@22.13.13)(typescript@4.9.5)):
+  jest-jasmine2@26.6.3:
     dependencies:
       '@babel/traverse': 7.27.0
       '@jest/environment': 26.6.2
@@ -12600,11 +12572,7 @@ snapshots:
       pretty-format: 26.6.2
       throat: 5.0.0
     transitivePeerDependencies:
-      - bufferutil
-      - canvas
       - supports-color
-      - ts-node
-      - utf-8-validate
 
   jest-jasmine2@27.5.1:
     dependencies:
@@ -14759,8 +14727,6 @@ snapshots:
   punycode@2.3.1: {}
 
   pure-rand@6.1.0: {}
-
-  q@1.5.1: {}
 
   querystringify@2.2.0: {}
 
