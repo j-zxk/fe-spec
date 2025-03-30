@@ -1,4 +1,4 @@
-73 error Error: Command failed with exit code 1: git commit -m chore(release): publish v0.0.1
+73 error Error: Command failed with exit code 1: git commit -m chore(release): publish v0.0.3
 73 error husky - DEPRECATED
 73 error
 73 error Please remove the following two lines from .husky/commit-msg:
@@ -8,13 +8,13 @@
 73 error
 73 error They WILL FAIL in v10.0.0
 73 error
-73 error npx: 99 安装成功，用时 6.619 秒
-73 error file:///Users/zhangxiaokun/.npm/_npx/55979/lib/node_modules/commitlint/node_modules/@commitlint/cli/lib/cli.js:132
+73 error npx: 99 安装成功，用时 17.536 秒
+73 error file:///Users/zhangxiaokun/.npm/_npx/28456/lib/node_modules/commitlint/node_modules/@commitlint/cli/lib/cli.js:132
 73 error         throw err;
 73 error         ^
 73 error
 73 error TypeError: format is not a function
-73 error     at main (file:///Users/zhangxiaokun/.npm/_npx/55979/lib/node_modules/commitlint/node_modules/@commitlint/cli/lib/cli.js:277:20)
+73 error     at main (file:///Users/zhangxiaokun/.npm/_npx/28456/lib/node_modules/commitlint/node_modules/@commitlint/cli/lib/cli.js:277:20)
 73 error
 73 error Node.js v18.20.7
 73 error husky - commit-msg script failed (code 1)
