@@ -1,6 +1,6 @@
 {
   "name": "frog-fe-lint",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "呱呱前端编码规范工程化脚手架",
   "author": "zxkxyz <522569695@qq.com>",
   "homepage": "https://github.com/j-zxk/fe-spec#readme",
@@ -81,7 +81,6 @@
     "is-docker": "^2.1.1",
     "lodash": "^4.17.20",
     "markdownlint": "^0.25.1",
-    "markdownlint-config-encode": "^1.0.8",
     "markdownlint-rule-helpers": "^0.13.0",
     "ora": "^5.1.0",
     "prettier": "^2.2.1",

@@ -220,9 +220,6 @@ importers:
       markdownlint:
         specifier: ^0.25.1
         version: 0.25.1
-      markdownlint-config-encode:
-        specifier: ^1.0.8
-        version: 1.0.8(markdownlint@0.25.1)
       markdownlint-rule-helpers:
         specifier: ^0.13.0
         version: 0.13.0
@@ -4858,11 +4855,6 @@ packages:
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
     hasBin: true
-
-  markdownlint-config-encode@1.0.8:
-    resolution: {integrity: sha512-IPj5WMxoCzHNgujvblNXl42MPnqwdgjDPPQAqoumVbsqOApe4OkQlb8ywWGITyepuB2xnlDgSM+uYi9M9GwaGw==}
-    peerDependencies:
-      markdownlint: ^0.28.1
 
   markdownlint-rule-helpers@0.13.0:
     resolution: {integrity: sha512-rRY0itbcHG4e+ntz0bbY3AIceSJMKS0TafEMgEtKVHRZ54/JUSy6/4ypCL618RlJvYRej+xMLxX5nkJqIeTZaQ==}
@@ -13455,10 +13447,6 @@ snapshots:
       mdurl: 2.0.0
       punycode.js: 2.3.1
       uc.micro: 2.1.0
-
-  markdownlint-config-encode@1.0.8(markdownlint@0.25.1):
-    dependencies:
-      markdownlint: 0.25.1
 
   markdownlint-rule-helpers@0.13.0: {}
 

@@ -41,21 +41,21 @@
 70 error npm error code ERESOLVE
 70 error npm error ERESOLVE unable to resolve dependency tree
 70 error npm error
-70 error npm error While resolving: frog-fe-lint@0.0.9
+70 error npm error While resolving: frog-fe-lint@0.0.10
 70 error npm error Found: markdownlint@0.25.1
 70 error npm error node_modules/markdownlint
-70 error npm error   markdownlint@"^0.25.1" from frog-fe-lint@0.0.9
+70 error npm error   markdownlint@"^0.25.1" from frog-fe-lint@0.0.10
 70 error npm error   packages/frog-fe-lint
-70 error npm error     frog-fe-lint@0.0.9
+70 error npm error     frog-fe-lint@0.0.10
 70 error npm error     node_modules/frog-fe-lint
 70 error npm error       workspace packages/frog-fe-lint from the root project
 70 error npm error
 70 error npm error Could not resolve dependency:
 70 error npm error peer markdownlint@"^0.28.1" from markdownlint-config-encode@1.0.8
 70 error npm error node_modules/markdownlint-config-encode
-70 error npm error   markdownlint-config-encode@"^1.0.8" from frog-fe-lint@0.0.9
+70 error npm error   markdownlint-config-encode@"^1.0.8" from frog-fe-lint@0.0.10
 70 error npm error   packages/frog-fe-lint
-70 error npm error     frog-fe-lint@0.0.9
+70 error npm error     frog-fe-lint@0.0.10
 70 error npm error     node_modules/frog-fe-lint
 70 error npm error       workspace packages/frog-fe-lint from the root project
 70 error npm error
@@ -65,8 +65,8 @@
 70 error npm error
 70 error npm error
 70 error npm error For a full report see:
-70 error npm error /Users/zhangxiaokun/.npm/_logs/2025-03-31T09_17_18_270Z-eresolve-report.txt
-70 error npm error A complete log of this run can be found in: /Users/zhangxiaokun/.npm/_logs/2025-03-31T09_17_18_270Z-debug-0.log
+70 error npm error /Users/zhangxiaokun/.npm/_logs/2025-03-31T09_36_34_610Z-eresolve-report.txt
+70 error npm error A complete log of this run can be found in: /Users/zhangxiaokun/.npm/_logs/2025-03-31T09_36_34_610Z-debug-0.log
 70 error     at makeError (/Users/zhangxiaokun/workBase/personal/fe-spec/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
 70 error     at handlePromise (/Users/zhangxiaokun/workBase/personal/fe-spec/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
 70 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
