@@ -1,6 +1,6 @@
 {
   "name": "frog-stylelint-config",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "呱呱 CSS规范",
   "author": "zxkxyz <522569695@qq.com>",
   "homepage": "https://github.com/j-zxk/fe-spec#readme",
@@ -16,10 +16,14 @@
   "bugs": {
     "url": "https://github.com/j-zxk/fe-spec/issues"
   },
+  "peerDependencies": {
+    "stylelint": ">=8.3.0",
+    "stylelint-scss": ">=2.0.0"
+  },
   "devDependencies": {
-    "jest": "^29.7.0",
-    "stylelint": "^16.16.0",
-    "stylelint-scss": "^6.11.1"
+    "jest": "^29.5.0",
+    "stylelint": "^14.3.0",
+    "stylelint-scss": "^4.1.0"
   },
   "gitHead": "89c3a6ed1f5939b7347927110fcf810412b09402"
 }

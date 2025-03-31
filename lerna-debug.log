@@ -1,74 +1,74 @@
-68 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
-68 error npm warn old lockfile
-68 error npm warn old lockfile The package-lock.json file was created with an old version of npm,
-68 error npm warn old lockfile so supplemental metadata must be fetched from the registry.
-68 error npm warn old lockfile
-68 error npm warn old lockfile This is a one-time fix-up, please be patient...
-68 error npm warn old lockfile
-68 error npm warn old lockfile Could not fetch metadata for strip-ansi-cjs@6.0.1 strip-ansi-cjs: No matching version found for strip-ansi-cjs@6.0.1.
-68 error npm warn old lockfile     at module.exports (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:215:23)
-68 error npm warn old lockfile     at RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:130:54)
-68 error npm warn old lockfile     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:712:24 {
-68 error npm warn old lockfile   code: 'ETARGET',
-68 error npm warn old lockfile   type: 'version',
-68 error npm warn old lockfile   wanted: '6.0.1',
-68 error npm warn old lockfile   versions: [ '1.0.0', '2.0.0', '8.0.0' ],
-68 error npm warn old lockfile   distTags: { latest: '8.0.0' },
-68 error npm warn old lockfile   defaultTag: 'latest'
-68 error npm warn old lockfile }
-68 error npm warn old lockfile Could not fetch metadata for string-width-cjs@4.2.3 string-width-cjs: No matching version found for string-width-cjs@4.2.3.
-68 error npm warn old lockfile     at module.exports (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:215:23)
-68 error npm warn old lockfile     at RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:130:54)
-68 error npm warn old lockfile     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:712:24 {
-68 error npm warn old lockfile   code: 'ETARGET',
-68 error npm warn old lockfile   type: 'version',
-68 error npm warn old lockfile   wanted: '4.2.3',
-68 error npm warn old lockfile   versions: [ '1.0.0', '5.1.1' ],
-68 error npm warn old lockfile   distTags: { latest: '5.1.1' },
-68 error npm warn old lockfile   defaultTag: 'latest'
-68 error npm warn old lockfile }
-68 error npm warn old lockfile Could not fetch metadata for wrap-ansi-cjs@7.0.0 wrap-ansi-cjs: No matching version found for wrap-ansi-cjs@7.0.0.
-68 error npm warn old lockfile     at module.exports (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:215:23)
-68 error npm warn old lockfile     at RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:130:54)
-68 error npm warn old lockfile     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:712:24 {
-68 error npm warn old lockfile   code: 'ETARGET',
-68 error npm warn old lockfile   type: 'version',
-68 error npm warn old lockfile   wanted: '7.0.0',
-68 error npm warn old lockfile   versions: [ '1.0.0', '8.0.0' ],
-68 error npm warn old lockfile   distTags: { latest: '8.0.0' },
-68 error npm warn old lockfile   defaultTag: 'latest'
-68 error npm warn old lockfile }
-68 error npm error code ERESOLVE
-68 error npm error ERESOLVE unable to resolve dependency tree
-68 error npm error
-68 error npm error While resolving: frog-fe-lint@0.0.8
-68 error npm error Found: markdownlint@0.25.1
-68 error npm error node_modules/markdownlint
-68 error npm error   markdownlint@"^0.25.1" from frog-fe-lint@0.0.8
-68 error npm error   packages/frog-fe-lint
-68 error npm error     frog-fe-lint@0.0.8
-68 error npm error     node_modules/frog-fe-lint
-68 error npm error       workspace packages/frog-fe-lint from the root project
-68 error npm error
-68 error npm error Could not resolve dependency:
-68 error npm error peer markdownlint@"^0.28.1" from markdownlint-config-encode@1.0.8
-68 error npm error node_modules/markdownlint-config-encode
-68 error npm error   markdownlint-config-encode@"^1.0.8" from frog-fe-lint@0.0.8
-68 error npm error   packages/frog-fe-lint
-68 error npm error     frog-fe-lint@0.0.8
-68 error npm error     node_modules/frog-fe-lint
-68 error npm error       workspace packages/frog-fe-lint from the root project
-68 error npm error
-68 error npm error Fix the upstream dependency conflict, or retry
-68 error npm error this command with --force or --legacy-peer-deps
-68 error npm error to accept an incorrect (and potentially broken) dependency resolution.
-68 error npm error
-68 error npm error
-68 error npm error For a full report see:
-68 error npm error /Users/zhangxiaokun/.npm/_logs/2025-03-31T09_13_28_295Z-eresolve-report.txt
-68 error npm error A complete log of this run can be found in: /Users/zhangxiaokun/.npm/_logs/2025-03-31T09_13_28_295Z-debug-0.log
-68 error     at makeError (/Users/zhangxiaokun/workBase/personal/fe-spec/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-68 error     at handlePromise (/Users/zhangxiaokun/workBase/personal/fe-spec/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
-68 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-68 error     at async VersionCommand.updatePackageVersions (/Users/zhangxiaokun/workBase/personal/fe-spec/node_modules/.pnpm/lerna@8.2.1_encoding@0.1.13/node_modules/lerna/dist/index.js:9901:13)
-68 error     at async Promise.all (index 0)
+70 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+70 error npm warn old lockfile
+70 error npm warn old lockfile The package-lock.json file was created with an old version of npm,
+70 error npm warn old lockfile so supplemental metadata must be fetched from the registry.
+70 error npm warn old lockfile
+70 error npm warn old lockfile This is a one-time fix-up, please be patient...
+70 error npm warn old lockfile
+70 error npm warn old lockfile Could not fetch metadata for strip-ansi-cjs@6.0.1 strip-ansi-cjs: No matching version found for strip-ansi-cjs@6.0.1.
+70 error npm warn old lockfile     at module.exports (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:215:23)
+70 error npm warn old lockfile     at RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:130:54)
+70 error npm warn old lockfile     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:712:24 {
+70 error npm warn old lockfile   code: 'ETARGET',
+70 error npm warn old lockfile   type: 'version',
+70 error npm warn old lockfile   wanted: '6.0.1',
+70 error npm warn old lockfile   versions: [ '1.0.0', '2.0.0', '8.0.0' ],
+70 error npm warn old lockfile   distTags: { latest: '8.0.0' },
+70 error npm warn old lockfile   defaultTag: 'latest'
+70 error npm warn old lockfile }
+70 error npm warn old lockfile Could not fetch metadata for string-width-cjs@4.2.3 string-width-cjs: No matching version found for string-width-cjs@4.2.3.
+70 error npm warn old lockfile     at module.exports (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:215:23)
+70 error npm warn old lockfile     at RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:130:54)
+70 error npm warn old lockfile     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:712:24 {
+70 error npm warn old lockfile   code: 'ETARGET',
+70 error npm warn old lockfile   type: 'version',
+70 error npm warn old lockfile   wanted: '4.2.3',
+70 error npm warn old lockfile   versions: [ '1.0.0', '5.1.1' ],
+70 error npm warn old lockfile   distTags: { latest: '5.1.1' },
+70 error npm warn old lockfile   defaultTag: 'latest'
+70 error npm warn old lockfile }
+70 error npm warn old lockfile Could not fetch metadata for wrap-ansi-cjs@7.0.0 wrap-ansi-cjs: No matching version found for wrap-ansi-cjs@7.0.0.
+70 error npm warn old lockfile     at module.exports (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:215:23)
+70 error npm warn old lockfile     at RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:130:54)
+70 error npm warn old lockfile     at async /usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:712:24 {
+70 error npm warn old lockfile   code: 'ETARGET',
+70 error npm warn old lockfile   type: 'version',
+70 error npm warn old lockfile   wanted: '7.0.0',
+70 error npm warn old lockfile   versions: [ '1.0.0', '8.0.0' ],
+70 error npm warn old lockfile   distTags: { latest: '8.0.0' },
+70 error npm warn old lockfile   defaultTag: 'latest'
+70 error npm warn old lockfile }
+70 error npm error code ERESOLVE
+70 error npm error ERESOLVE unable to resolve dependency tree
+70 error npm error
+70 error npm error While resolving: frog-fe-lint@0.0.9
+70 error npm error Found: markdownlint@0.25.1
+70 error npm error node_modules/markdownlint
+70 error npm error   markdownlint@"^0.25.1" from frog-fe-lint@0.0.9
+70 error npm error   packages/frog-fe-lint
+70 error npm error     frog-fe-lint@0.0.9
+70 error npm error     node_modules/frog-fe-lint
+70 error npm error       workspace packages/frog-fe-lint from the root project
+70 error npm error
+70 error npm error Could not resolve dependency:
+70 error npm error peer markdownlint@"^0.28.1" from markdownlint-config-encode@1.0.8
+70 error npm error node_modules/markdownlint-config-encode
+70 error npm error   markdownlint-config-encode@"^1.0.8" from frog-fe-lint@0.0.9
+70 error npm error   packages/frog-fe-lint
+70 error npm error     frog-fe-lint@0.0.9
+70 error npm error     node_modules/frog-fe-lint
+70 error npm error       workspace packages/frog-fe-lint from the root project
+70 error npm error
+70 error npm error Fix the upstream dependency conflict, or retry
+70 error npm error this command with --force or --legacy-peer-deps
+70 error npm error to accept an incorrect (and potentially broken) dependency resolution.
+70 error npm error
+70 error npm error
+70 error npm error For a full report see:
+70 error npm error /Users/zhangxiaokun/.npm/_logs/2025-03-31T09_17_18_270Z-eresolve-report.txt
+70 error npm error A complete log of this run can be found in: /Users/zhangxiaokun/.npm/_logs/2025-03-31T09_17_18_270Z-debug-0.log
+70 error     at makeError (/Users/zhangxiaokun/workBase/personal/fe-spec/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+70 error     at handlePromise (/Users/zhangxiaokun/workBase/personal/fe-spec/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+70 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+70 error     at async VersionCommand.updatePackageVersions (/Users/zhangxiaokun/workBase/personal/fe-spec/node_modules/.pnpm/lerna@8.2.1_encoding@0.1.13/node_modules/lerna/dist/index.js:9901:13)
+70 error     at async Promise.all (index 0)
